@@ -21,7 +21,7 @@ int main(){
 //Do not modify the code above this line
 //Write definition of shuffle() using pointer after this line. 
 void shuffle(int *A,int *B,int *C,int *D){
-	int *X[4] = {A,B,C,D}; //array ต้องเป็น int *X[] เพราะมันเก็บ pointer (A,B,C,D)
+	int *X[4] = {A,B,C,D}; //array ต้องเป็น int *X[] เพราะมันเก็บ pointer
 	for(int k = 0; k < 10; k++){
 		int i = rand()%4;
 		int j = rand()%4;
